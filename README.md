@@ -11,11 +11,11 @@ Input:
     last: 'go`
     
 Output:
-{
+`{
   name: {
     first: 'ind'
   }
-}
+}`
 
 # Installation
 From the CLI:
