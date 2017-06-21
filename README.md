@@ -18,11 +18,11 @@ Output:
 }
 
 # Installation
-From the CLI:
-    npm install --save partial-json-parser
+From the CLI: \n
+    `npm install --save partial-json-parser`
     
 From javascript:
-    var partialParse = require('partial-json-parser');
-    var output = partialParse('"key": "value"');
+    `var partialParse = require('partial-json-parser');`\n
+    `var output = partialParse('"key": "value"');`
     
 Alternatively, ou can directly use the script in the browser with a script tag.
