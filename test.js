@@ -1801,16 +1801,17 @@ var testData = `[
   }
 ]`
 
-let test = s => {debugger;
-	for (var i=0; i<s.length; i++) {
-	  console.log(s.length - i);
-		try {
-		  console.dir(partialParse(s.slice(0, s.length-i)));
-		}
-		catch(e) {
-		  console.dir(e);
-		}
-	}
+function test(s) {
+  var i;
+  for (i = 0; i < s.length; i++) {
+    console.log(s.length - i);
+    try {
+      console.dir(partialParse(s.slice(0, s.length-i)));
+    }
+    catch(e) {
+      console.dir(e);
+    }
+  }
 }
 
 test(testData);
